@@ -6,7 +6,6 @@ from settings import *
 
 # Read data from excels
 df = pd.read_excel('report.xlsx')
-tag = pd.read_excel('problem_description.xlsx', index_col='Name')
 
 # Extract important attributes
 df1 = df[['Friendly_Name','Problem_ID', 'Message']]
